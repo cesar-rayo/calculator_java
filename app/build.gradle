@@ -1,0 +1,21 @@
+plugins {
+    id 'application'
+}
+
+// Declare main class
+application {
+    mainClass = 'com.linkedinlearning.calculator.Main'
+}
+
+// Declare maven repository
+repositories {
+    mavenCentral()
+}
+
+// List of binaries and dependencies
+dependencies {
+    // Adding the module api as dependency
+    implementation project(':api')
+    // Copied from maven repository
+    implementation 'commons-cli:commons-cli:1.4'
+}

@@ -1,0 +1,13 @@
+// declare version, so it's appended to the jar name calculator_java-1.0.0.jar
+allprojects {
+    version = '1.0.0'
+}
+
+subprojects {
+    apply plugin: 'java'
+    // Using a specific java version
+    java {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+}
