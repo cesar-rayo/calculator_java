@@ -1,0 +1,50 @@
+plugins {
+    id 'maven-publish'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.commons:commons-lang3:3.11'
+    // include dependencies for tests only
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.0-M1' // Contains classes an imports
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.0-M1' // Runs the tests
+}
+
+test {
+    // Configure junit to run tests
+    useJUnitPlatform()
+    // Show results in console
+    testLogging {
+        exceptionFormat 'full' // print stacktrace when exception occurs
+        events 'started', 'skipped', 'failed' // show when a test is started skipped or failed
+    }
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            // Artifact details
+            // Version is already defined in the main build.gradle file
+            groupId = 'org.linkedinlearning'
+            artifactId = 'calculator'
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            // Local directory
+            url = "$rootProject.buildDir/m2repo"
+
+            // Remote repository like jfrog
+            //url = 'http://localhost:8082/artifactory/lib-release-local'
+            //credentials {
+            //    username = 'admin'
+            //    password = 'admin_123'
+            //}
+
+        }
+    }
+}

@@ -19,3 +19,8 @@ Running the app
 ```
 $ ./app/build/install/app/bin/app -o add -v1 1 -v2 2
 ```
+
+Executing unit tests (./build/reports/tests/test)
+```
+$ ./gradlew test
+```
