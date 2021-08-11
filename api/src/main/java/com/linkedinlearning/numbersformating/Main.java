@@ -36,5 +36,32 @@ public class Main {
 
         //$005.891
         System.out.println(df2.format(5.891));
+
+        // Working with switch cases
+        int month = 0;
+
+        switch (month) {
+            case 0:
+                System.out.println("It's january");
+                break;
+            case 1:
+                System.out.println("It's February");
+                break;
+            case 2:
+                System.out.println("It's March");
+                break;
+            default:
+                System.out.println("It's some other month");
+        }
+
+        String monthName = "January";
+
+        switch (monthName) {
+            case "January":
+                System.out.println("It's the first month");
+                break;
+            default:
+                System.out.println("It's some other month");
+        }
     }
 }
