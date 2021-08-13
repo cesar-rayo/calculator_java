@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="calculator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/calculator_jar</output-path>
+    <root id="archive" name="calculator.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/api/src/main/java/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="calculator.api.main" />
+      <element id="module-output" name="calculator.app.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.20/c6761d7805b5312302f2bbd78cda68c976ce0c70/kotlin-stdlib-common-1.4.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.11/68e9a6adf7cf8eb7e9d31bbc554c7c75eeaac568/commons-lang3-3.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/a2503f302b11ebde7ebc3df41daebe0e4eea3689/commons-io-2.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.4.20/756521338269950c2a276f1abe6fef8e1a5e5528/kotlin-stdlib-jdk8-1.4.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.4.20/9de2c79e95d4b4699a455e88ba285a95352e0bea/kotlin-stdlib-jdk7-1.4.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.20/9be77b243a362b745e365f286627b8724337009c/kotlin-stdlib-1.4.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.8.0-M1/ec6b09bebb1f08ab88ac3067e84a2c37abac0f47/junit-platform-engine-1.8.0-M1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.8.0-M1/7c9a3128baf19144a4dceb1d02e697384db8b2b4/junit-jupiter-engine-5.8.0-M1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.8.0-M1/606bc745051c0c2a608700d91a40d8a94698cdab/junit-platform-commons-1.8.0-M1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.4/c51c00206bb913cd8612b24abd9fa98ae89719b1/commons-cli-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.8.0-M1/6d6a0e5ee7373eaebba6a7357c36a468e490b47b/junit-jupiter-api-5.8.0-M1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.1/7ea550039f115fcc40990925490b8ebd4b93024a/apiguardian-api-1.1.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
