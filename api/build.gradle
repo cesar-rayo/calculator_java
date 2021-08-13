@@ -11,6 +11,9 @@ dependencies {
     // include dependencies for tests only
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.0-M1' // Contains classes an imports
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.0-M1' // Runs the tests
+    // https://mvnrepository.com/artifact/commons-io/commons-io
+    implementation group: 'commons-io', name: 'commons-io', version: '2.11.0'
+
 }
 
 test {
